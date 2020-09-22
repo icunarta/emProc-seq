@@ -37,8 +37,7 @@ for line in infile:
 		
 		#save perfectly matched, ungapped alignments
 		if int(NM[2]) == 0:
-			outfile1.write(line1)
-		
+			outfile1.write(line1)	
 		#make every possible rotation of reads with no gaps but have mismatches. Coincidentally matched bases near the
 		#ends may suppress sequence clipping
 		else:
