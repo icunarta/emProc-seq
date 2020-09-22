@@ -65,6 +65,9 @@ The following packages are prerequisites for using emProc-seq
 4. SciPy (version 0.17.0)    
 5. bwa (version 0.7.17-r1188)   
 6. samtools (version 1.4.1)
+7. pysam (version 0.15.0)
+8. matplotlib (version 2.2.2)
+9. bwa (version 0.7.17)
 
 NOTE 1: Cython requires a compiler. For OSX this may require installation of Xcode.
 
